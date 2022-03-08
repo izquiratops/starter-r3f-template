@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "esbuild src/index.tsx --bundle --minify --sourcemap --outfile=dist/bundle.js",
-    "serve": "esbuild src/index.tsx --bundle --servedir=www --outdir=www/js"
+    "serve": "esbuild src/index.tsx --bundle --servedir=dist --outdir=dist"
   },
   "dependencies": {
     "esbuild": "^0.14.8",
